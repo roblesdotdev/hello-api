@@ -11,3 +11,9 @@ tidy:
 .PHONY: build
 build:
 	go build -o=${BINARY_NAME} ${MAIN_PACKAGE_PATH}
+
+
+## test: test the application
+.PHONY: test
+test:
+	go test ./...
