@@ -6,7 +6,7 @@ func Translate(word string, language string) string {
 	word = sanitizeInput(word)
 	language = sanitizeInput(language)
 
-	if (word != "hello") {
+	if word != "hello" {
 		return ""
 	}
 	switch language {
@@ -20,7 +20,6 @@ func Translate(word string, language string) string {
 		return ""
 	}
 }
-
 
 func sanitizeInput(w string) string {
 	w = strings.ToLower(w)

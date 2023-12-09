@@ -38,13 +38,13 @@ func TestTranslate(t *testing.T) {
 			Translation: "",
 		},
 		{
-			Word: "Hello",
-			Language: "german",
+			Word:        "Hello",
+			Language:    "german",
 			Translation: "hallo",
 		},
 		{
-			Word: "hello",
-			Language: "German",
+			Word:        "hello",
+			Language:    "German",
 			Translation: "hallo",
 		},
 	}
