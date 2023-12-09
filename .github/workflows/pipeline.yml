@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     name: Test App
-    runst-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.x
         uses: actions/setup-go@v3
