@@ -17,3 +17,8 @@ build:
 .PHONY: test
 test:
 	go test ./...
+
+## cover: coverage
+.PHONY: cover
+cover:
+	go test ./... -cover
